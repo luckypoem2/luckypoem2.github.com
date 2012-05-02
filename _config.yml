@@ -8,7 +8,7 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: blog.example.com
-title: ym's Blog Title
+title: ym's Blog 
 author: Me
 email: me@example.com
 
