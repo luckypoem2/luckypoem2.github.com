@@ -3,6 +3,7 @@ layout: post
 title: country road take me home
 category: misc
 ---
+<embed src="http://player.youku.com/player.php/sid/XMjYxOTYwOTY=/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
 Almost heaven
 West Virginia
 Blue Ridge Mountain
