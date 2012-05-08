@@ -39,19 +39,6 @@
     <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
   {% endif %}
 
- {% if page.previous %}
-    <p>
-      <strong>Previous Entry:</strong>
-      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
-    </p>
-  {% endif %}
-
-  {% if page.next %}
-    <p>
-      <strong>Next Entry:</strong>
-      <a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>
-    </p>
-  {% endif %}
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
