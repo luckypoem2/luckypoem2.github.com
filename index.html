@@ -22,3 +22,14 @@ description: A description about my blog homepage
     {% endfor %}
   </ul>
 </div>
+
+{% if paginator.previous_page %}
+   {% if paginator.page == 2 %}
+   <a href="/" rel="bookmark"> << Previous Page</a>
+   {% else %}
+   <a href="/page{{ paginator.previous_page }}" rel="bookmark"> << Previous Page</a>
+   {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+   <a href="/page{{ paginator.next_page }}" rel="bookmark" style="float:right">Next Page >></a>
+  {% endif %}
