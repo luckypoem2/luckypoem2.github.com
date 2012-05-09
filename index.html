@@ -23,6 +23,17 @@ description: A description about my blog homepage
   </ul>
 </div>
 
+{% for post in paginator.posts %}
+	<div class="posts">
+		<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+		<span style="float:right">{{ post.date | date_to_string }}</span>
+		<div class="entry">
+			{{ post.content }}
+			<p class="postmetadata"><a href="{{ post.url }}#disqus_thread"></a><br /><br /></p>
+		</div><br />
+	  </div>
+	  {% endfor %}
+
 <!--{% if paginator.total_pages > 1 %}
 <div class="navigation">
 {% for page in (1..paginator.total_pages) %}
